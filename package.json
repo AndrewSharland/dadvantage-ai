@@ -1,0 +1,27 @@
+{
+  "name": "dadvantage-ai",
+  "version": "1.0.0",
+  "description": "AI-powered everyday decision assistant (AIDI-2001 Assignment 5)",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+  "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewSharland/dadvantage-ai.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AndrewSharland/dadvantage-ai/issues"
+  },
+  "homepage": "https://github.com/AndrewSharland/dadvantage-ai#readme",
+  "dependencies": {
+    "jest": "^30.3.0"
+  }
+}
