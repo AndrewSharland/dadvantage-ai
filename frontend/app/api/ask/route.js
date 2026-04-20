@@ -31,7 +31,9 @@ export async function POST(req) {
       model: "gpt-4.1-mini",
       input: `User question: ${question}
 Base answer: ${baseAnswer}
-Make this more helpful, conversational, and slightly more detailed.`,
+
+Rewrite this into a clear, specific, and actionable response.
+Keep it concise and practical. Avoid vague advice.`,
     });
 
     return NextResponse.json({
