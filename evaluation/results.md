@@ -75,3 +75,24 @@ The LLM improves clarity, tone, and usefulness of responses.
 ## Summary
 
 The system performs well on structured, relevant queries but struggles with vague or out-of-scope inputs.
+
+## Improvement
+
+I improved the system by refining the prompt used in the LLM layer.
+
+Previously, the instruction was vague, which resulted in more generic responses.  
+The updated prompt now asks for clear, specific, and actionable answers.
+
+This improves response quality while keeping the system simple and efficient.
+
+### Example
+
+Input: quick workout  
+
+Before improvement:  
+A simple, generic response with limited detail  
+
+After improvement:  
+A clearer and more actionable response with practical guidance  
+
+This demonstrates that the updated prompt improves response quality.
